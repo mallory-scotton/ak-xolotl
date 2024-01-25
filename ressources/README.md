@@ -18,7 +18,7 @@ Then, if the level is too big, it parsed into ___chuncks___ and each assets are 
 
 All the assets still visible, and the `mapset` format is not unreadable and you can modify as wanted the mapset.
 
-But, the mapset contain information about the current mapset version, and the level too. 
+But, the mapset contain information about the current mapset version, and the level too.
 If the version of the mapset and the level are not the same, the level wont load.
 
 ## How to use a mapset ?
@@ -26,6 +26,7 @@ If the version of the mapset and the level are not the same, the level wont load
 ### 📋 Comments
 
 To add comments to your mapset you can use:
+
 ```ini
 # your beautiful comment
 ```
@@ -35,12 +36,13 @@ To add comments to your mapset you can use:
 Tiles are visible inside the level editor, they don't have all the possibilites of a sprite.
 
 To create a tiles you can use:
+
 ```ini
 T <FILE_PATH> <BROWSER_PATH> <IS_ANIMATED> [GRID_X] [GRID_Y] [END] [PREVIEW]
 ```
 
 - `FILE_PATH`: the local/absolute filepath (local is safer)
-  - _e.g: "./ressources/environment/background.png"_ 
+  - _e.g: "./ressources/environment/background.png"_
 - `BROWSER_PATH`: the level editor assets browser path and name
   - _e.g: "environment/background"_
 - `IS_ANIMATED`: boolean [TRUE/FALSE] to precise if a tile is animated or a tilemap
@@ -53,6 +55,7 @@ If the tile is animated:
 - `PREVIEW`: boolean [TRUE/FALSE] to play the animation inside the level editor, if false, it mean that the tiles is a tilemap and you can access each part of the tile individually. Otherwise, the animation will play at a constant framerate.
 
 Exemple:
+
 ```ini
 # This line will create a new instance into the mapset of a tile.
 # The tile will be located in the assets browser at /environment/.
@@ -101,4 +104,35 @@ To create a sprite, use this line:
 
 ```ini
 S <FILE_PATH> <IS_ANIMATED> [GRID_X] [GRID_Y] ([ANIMATION_NAME] [ANIMATION_START] [ANIMATION_END] [FRAMERATE] [LOOP]) (...) (...)
+```
+
+- `FILE_PATH`: the local/absolute filepath (local is safer)
+  - _e.g: "./ressources/player/deplacement.png"_
+- `IS_ANIMATED`: boolean [TRUE/FALSE] to precise if a tile is animated or a tilemap
+  - _e.g: "TRUE" or "FALSE"_
+
+If the sprite is animated:
+
+- `GRID_X` and `GRID_Y`: The limit of the animation, it represents the number of frames in the X and Y axis. The size of each frame is calculate using those value.
+
+For each animations (all between parenthesis):
+
+- `ANIMATION_NAME`: The name of the animation
+- `ANIMATION_START`: The index of the start for the animation
+- `ANIMATION_END`: The index of the end for the animation
+- `FRAMERATE`: The number of frame each seconds
+- `LOOP`: boolean [TRUE/FALSE], if the animation is looped, if not, the animation will stop and reset once completed.
+
+You can repeat the animation between parenthesis for as many animation you have
+
+Exemple:
+
+```ini
+# Create a sprite with 3 different animation
+# The sprite will not be displayed on the assets browser for the level editor
+S ./ressources/player/deplacement.png TRUE 10 3 (IDLE 0 9 10 TRUE) (WALK 10 18 10 TRUE) (JUMP 19 27 10 FALSE)
+# Here there's 3 animations:
+# Idle: from [0 - 9] at 10 frames per seconds and looped
+# Walk: from [10 - 18] at 10 frames per seconds and looped
+# Jump: from [19 - 27] at 10 frames per seconds and not looped
 ```
