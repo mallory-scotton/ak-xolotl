@@ -13,8 +13,7 @@ SRC		=		source/*.c \
 				source/shared/char/*.c \
 				source/shared/strings/*.c \
 				source/shared/memory/*.c \
-				source/ressources/*.c \
-				source/editor/*.c
+				source/ressources/*.c
 
 LIB		=		-lcsfml-system \
 				-lcsfml-window \

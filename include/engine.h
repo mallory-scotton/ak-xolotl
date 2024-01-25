@@ -14,6 +14,7 @@
     #include "engine/dependencies.h"
     #include "engine/types.h"
     #include "engine/mapset.h"
+    #include "engine/macros.h"
     #include "shared/shared.h"
 
 #endif /* !RPG_H_ */

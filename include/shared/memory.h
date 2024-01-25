@@ -2,13 +2,17 @@
 ** EPITECH PROJECT, 2024
 ** ak-xolotl
 ** File description:
-** memcpy
+** memory
 */
+
+#ifndef MEMORY_H_
+    #define MEMORY_H_
 
 ///////////////////////////////////////////////////////////////////////////////
 // Headers
 ///////////////////////////////////////////////////////////////////////////////
-#include "engine.h"
+    #include "engine/types.h"
+    #include "engine/dependencies.h"
 
 ///////////////////////////////////////////////////////////////////////////////
 /// \brief Copy memory area
@@ -23,16 +27,6 @@
 ///
 /// \return      Pointer to the destination memory area ('dst')
 ///////////////////////////////////////////////////////////////////////////////
-void *my_memcpy(void *dst, const void *src, ulong n)
-{
-    ulong i = 0;
-    string csrc = (string)src;
-    string cdst = (string)dst;
+void *my_memcpy(void *dst, const void *src, ulong n);
 
-    while ((i < n || n == (ulong) - 1) && csrc != NULL && csrc[i]) {
-        cdst[i] = csrc[i];
-        ++i;
-    }
-    cdst[i] = 0;
-    return (dst);
-}
+#endif /* !MEMORY_H_ */
