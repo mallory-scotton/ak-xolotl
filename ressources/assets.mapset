@@ -237,6 +237,7 @@ T ressources/environment/biome1/outside/Biome1_Trunk1.png                       
 #
 # Adults
 #
+S ressources/player/debug.png                       TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
 S ressources/player/adults/albino.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
 S ressources/player/adults/algae.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
 S ressources/player/adults/alien.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
