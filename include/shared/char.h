@@ -1,0 +1,27 @@
+/*
+** EPITECH PROJECT, 2024
+** ak-xolotl
+** File description:
+** char
+*/
+
+#ifndef CHAR_H_
+    #define CHAR_H_
+
+///////////////////////////////////////////////////////////////////////////////
+// Headers
+///////////////////////////////////////////////////////////////////////////////
+    #include "engine/types.h"
+
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Check if a character is a whitespace character (tab, newline,
+/// vertical tab, form feed, carriage return, or space).
+///
+/// \param c    The character to check
+///
+/// \return true if the character is a whitespace character, false otherwise.
+///
+///////////////////////////////////////////////////////////////////////////////
+bool my_isspace(int c);
+
+#endif /* !CHAR_H_ */
