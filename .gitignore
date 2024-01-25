@@ -1,52 +1,37 @@
-# Prerequisites
-*.d
+# Ignore all
+*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Unignore file with extension
+!*.*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Unignore dir
+!*/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore experimental C file
+/*.c
 
-# Libraries
-*.lib
+# Ignore logs and tests
+*.json
+*.log
+*.txt
+*.temp
+
+# Ignore all criterion files
+*.gcda
+*.gcno
+*.css
+*.html
+
+# Ignore objects
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
+*.o
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Ignore scripts
+*.sh
+*.pl
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Exception
+!Makefile
+!.gitignore
+!LICENSE
