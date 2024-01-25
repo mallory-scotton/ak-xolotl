@@ -14,130 +14,277 @@ C USE_ASSETS_BROWSER        TRUE
 #
 C VERSION                   1.0.0
 #
+# Set the default frame rate used for animation if DEFAULT
+#
+C DEFAULT_FRAMERATE         10
+#
 #/////////////////////////////////////////////////////////////////////////////#
 # BIOME1
 #/////////////////////////////////////////////////////////////////////////////#
 #
 # Boss
 #
-T ressources/environment/biome1/boss/Biome1_BossDeco1.png environment/biome1/boss/deco1 0
-T ressources/environment/biome1/boss/Biome1_BossRoom1.png environment/biome1/boss/room1 0
-T ressources/environment/biome1/boss/Biome1_BossRoom2.png environment/biome1/boss/room2 0
-T ressources/environment/biome1/boss/Biome1_BossRoom3.png environment/biome1/boss/room3 0
-T ressources/environment/biome1/boss/Biome1_BossRoom4.png environment/biome1/boss/room4 0
-T ressources/environment/biome1/boss/Biome1_BossRoom5.png environment/biome1/boss/room5 0
-T ressources/environment/biome1/boss/PD_bones_01.png environment/biome1/boss/bones1 0
-T ressources/environment/biome1/boss/PD_bones_02.png environment/biome1/boss/bones2 0
-T ressources/environment/biome1/boss/PD_bones_03.png environment/biome1/boss/bones3 0
-T ressources/environment/biome1/boss/PD_entrance_01.png environment/biome1/boss/entrance 0
-T ressources/environment/biome1/boss/PD_entrance_animation45x39.png environment/biome1/boss/entrance 1 7 1 FALSE
-T ressources/environment/biome1/boss/PD_floor_left_01.png environment/biome1/boss/floor_left 0
-T ressources/environment/biome1/boss/PD_floor_right_01.png environment/biome1/boss/floor_right 0
-T ressources/environment/biome1/boss/PD_grass_center_01.png environment/biome1/boss/grass_center 0
-T ressources/environment/biome1/boss/PD_statue_stone_01.png environment/biome1/boss/statue_stone1 0
-T ressources/environment/biome1/boss/PD_statue_stone_02.png environment/biome1/boss/statue_stone2 0
-T ressources/environment/biome1/boss/PD_statue_water_01.png environment/biome1/boss/statue_water1 0
-T ressources/environment/biome1/boss/PD_statue_water_02.png environment/biome1/boss/statue_water2 0
-T ressources/environment/biome1/boss/PD_statue_water_03.png environment/biome1/boss/statue_water3 0
-T ressources/environment/biome1/boss/PD_statue_water_04.png environment/biome1/boss/statue_water4 0
-T ressources/environment/biome1/boss/PD_stones.png environment/biome1/boss/stones 0
-T ressources/environment/biome1/boss/PD_water_lateral_01.png environment/biome1/boss/water_lateral 0
+T ressources/environment/biome1/boss/Biome1_BossDeco1.png                       environment/biome1/boss/deco1                                       FALSE
+T ressources/environment/biome1/boss/Biome1_BossRoom1.png                       environment/biome1/boss/room1                                       FALSE
+T ressources/environment/biome1/boss/Biome1_BossRoom2.png                       environment/biome1/boss/room2                                       FALSE
+T ressources/environment/biome1/boss/Biome1_BossRoom3.png                       environment/biome1/boss/room3                                       FALSE
+T ressources/environment/biome1/boss/Biome1_BossRoom4.png                       environment/biome1/boss/room4                                       FALSE
+T ressources/environment/biome1/boss/Biome1_BossRoom5.png                       environment/biome1/boss/room5                                       FALSE
+T ressources/environment/biome1/boss/PD_bones_01.png                            environment/biome1/boss/bones1                                      FALSE
+T ressources/environment/biome1/boss/PD_bones_02.png                            environment/biome1/boss/bones2                                      FALSE
+T ressources/environment/biome1/boss/PD_bones_03.png                            environment/biome1/boss/bones3                                      FALSE
+T ressources/environment/biome1/boss/PD_entrance_01.png                         environment/biome1/boss/entrance                                    FALSE
+T ressources/environment/biome1/boss/PD_entrance_animation45x39.png             environment/biome1/boss/animated_entrance                           TRUE 7 1 FALSE
+T ressources/environment/biome1/boss/PD_floor_left_01.png                       environment/biome1/boss/floor_left                                  FALSE
+T ressources/environment/biome1/boss/PD_floor_right_01.png                      environment/biome1/boss/floor_right                                 FALSE
+T ressources/environment/biome1/boss/PD_grass_center_01.png                     environment/biome1/boss/grass_center                                FALSE
+T ressources/environment/biome1/boss/PD_statue_stone_01.png                     environment/biome1/boss/statue_stone1                               FALSE
+T ressources/environment/biome1/boss/PD_statue_stone_02.png                     environment/biome1/boss/statue_stone2                               FALSE
+T ressources/environment/biome1/boss/PD_statue_water_01.png                     environment/biome1/boss/statue_water1                               FALSE
+T ressources/environment/biome1/boss/PD_statue_water_02.png                     environment/biome1/boss/statue_water2                               FALSE
+T ressources/environment/biome1/boss/PD_statue_water_03.png                     environment/biome1/boss/statue_water3                               FALSE
+T ressources/environment/biome1/boss/PD_statue_water_04.png                     environment/biome1/boss/statue_water4                               FALSE
+T ressources/environment/biome1/boss/PD_stones.png                              environment/biome1/boss/stones                                      FALSE
+T ressources/environment/biome1/boss/PD_water_lateral_01.png                    environment/biome1/boss/water_lateral                               FALSE
 #
 # Destructibles
 #
-T ressources/environment/biome1/destructibles/Biome1_Destructible1.png environment/biome1/destructibles/destructible01 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible2.png environment/biome1/destructibles/destructible02 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible3.png environment/biome1/destructibles/destructible03 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible4.png environment/biome1/destructibles/destructible04 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible5.png environment/biome1/destructibles/destructible05 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible6.png environment/biome1/destructibles/destructible06 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible7.png environment/biome1/destructibles/destructible07 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible8.png environment/biome1/destructibles/destructible08 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible9.png environment/biome1/destructibles/destructible09 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible10.png environment/biome1/destructibles/destructible10 0
-T ressources/environment/biome1/destructibles/Biome1_Destructible11.png environment/biome1/destructibles/destructible11 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie1.png environment/biome1/destructibles/destructible_veggie1 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie2.png environment/biome1/destructibles/destructible_veggie2 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie3.png environment/biome1/destructibles/destructible_veggie3 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie4.png environment/biome1/destructibles/destructible_veggie4 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie5.png environment/biome1/destructibles/destructible_veggie5 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie6.png environment/biome1/destructibles/destructible_veggie6 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie7.png environment/biome1/destructibles/destructible_veggie7 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie8.png environment/biome1/destructibles/destructible_veggie8 0
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie9.png environment/biome1/destructibles/destructible_veggie9 0
-T ressources/environment/biome1/destructibles/Biome1_herbs_destructible_01.png environment/biome1/destructibles/herbs_destructible 1 2 1 FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible1.png          environment/biome1/destructibles/destructible01                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible2.png          environment/biome1/destructibles/destructible02                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible3.png          environment/biome1/destructibles/destructible03                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible4.png          environment/biome1/destructibles/destructible04                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible5.png          environment/biome1/destructibles/destructible05                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible6.png          environment/biome1/destructibles/destructible06                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible7.png          environment/biome1/destructibles/destructible07                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible8.png          environment/biome1/destructibles/destructible08                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible9.png          environment/biome1/destructibles/destructible09                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible10.png         environment/biome1/destructibles/destructible10                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible11.png         environment/biome1/destructibles/destructible11                     FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie1.png    environment/biome1/destructibles/destructible_veggie1               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie2.png    environment/biome1/destructibles/destructible_veggie2               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie3.png    environment/biome1/destructibles/destructible_veggie3               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie4.png    environment/biome1/destructibles/destructible_veggie4               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie5.png    environment/biome1/destructibles/destructible_veggie5               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie6.png    environment/biome1/destructibles/destructible_veggie6               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie7.png    environment/biome1/destructibles/destructible_veggie7               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie8.png    environment/biome1/destructibles/destructible_veggie8               FALSE
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie9.png    environment/biome1/destructibles/destructible_veggie9               FALSE
+T ressources/environment/biome1/destructibles/Biome1_herbs_destructible_01.png  environment/biome1/destructibles/herbs_destructible                 TRUE 2 1 FALSE
 #
 # Doors
 #
-T ressources/environment/biome1/doors/Biome1_EnterDoor1.png environment/biome1/doors/enter_door1 0
-T ressources/environment/biome1/doors/Biome1_EnterDoor2.png environment/biome1/doors/enter_door2 0
-T ressources/environment/biome1/doors/Biome1_ExitDoor1.png environment/biome1/doors/exit_door1 0
-T ressources/environment/biome1/doors/Biome1_ExitDoor2.png environment/biome1/doors/exit_door2 0
-T ressources/environment/biome1/doors/Biome1_ExitDoorBossBottom1.png environment/biome1/doors/exit_door_boss_bottom 0
-T ressources/environment/biome1/doors/Biome1_ExitDoorBossTom1.png environment/biome1/doors/exit_door_boss_tom 0
-T ressources/environment/biome1/doors/Biome1_ExitDoorBottom1.png environment/biome1/doors/exit_door_bottom 0
-T ressources/environment/biome1/doors/Biome1_ExitDoorPlank1.png environment/biome1/doors/exit_door_plank1 0
-T ressources/environment/biome1/doors/Biome1_ExitDoorTop1.png environment/biome1/doors/exit_door_top 0
-T ressources/environment/biome1/doors/Biome1_PlankDoor76x48.png environment/biome1/doors/plank_door 1 12 1 FALSE
-T ressources/environment/biome1/doors/Biome1_SecretDoor_Locked.png environment/biome1/doors/secret_door_Locked 1 2 6 FALSE
-T ressources/environment/biome1/doors/Biome1_SecretDoor_Unlocked.png environment/biome1/doors/secret_door_unlocked 0
-T ressources/environment/biome1/doors/junkyard_TransitionDoor_bot.png environment/biome1/doors/junkyard_transition_door_bot 0
-T ressources/environment/biome1/doors/junkyard_TransitionDoor_top.png environment/biome1/doors/junkyard_transition_door_top 0
+T ressources/environment/biome1/doors/Biome1_EnterDoor1.png                     environment/biome1/doors/enter_door1                                FALSE
+T ressources/environment/biome1/doors/Biome1_EnterDoor2.png                     environment/biome1/doors/enter_door2                                FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoor1.png                      environment/biome1/doors/exit_door1                                 FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoor2.png                      environment/biome1/doors/exit_door2                                 FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoorBossBottom1.png            environment/biome1/doors/exit_door_boss_bottom                      FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoorBossTom1.png               environment/biome1/doors/exit_door_boss_tom                         FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoorBottom1.png                environment/biome1/doors/exit_door_bottom                           FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoorPlank1.png                 environment/biome1/doors/exit_door_plank1                           FALSE
+T ressources/environment/biome1/doors/Biome1_ExitDoorTop1.png                   environment/biome1/doors/exit_door_top                              FALSE
+T ressources/environment/biome1/doors/Biome1_PlankDoor76x48.png                 environment/biome1/doors/plank_door                                 TRUE 12 1 FALSE
+T ressources/environment/biome1/doors/Biome1_SecretDoor_Locked.png              environment/biome1/doors/secret_door_Locked                         TRUE 2 6 FALSE
+T ressources/environment/biome1/doors/Biome1_SecretDoor_Unlocked.png            environment/biome1/doors/secret_door_unlocked                       FALSE
+T ressources/environment/biome1/doors/junkyard_TransitionDoor_bot.png           environment/biome1/doors/junkyard_transition_door_bot               FALSE
+T ressources/environment/biome1/doors/junkyard_TransitionDoor_top.png           environment/biome1/doors/junkyard_transition_door_top               FALSE
 #
 # Inside Props
 #
-T ressources/environment/biome1/inside/Biome1_DoorGround.png environment/biome1/inside_props/door_ground 0
-T ressources/environment/biome1/inside/Biome1_Flower1.png environment/biome1/inside_props/flower_01 0
-T ressources/environment/biome1/inside/Biome1_Flower3.png environment/biome1/inside_props/flower_03 0
-T ressources/environment/biome1/inside/Biome1_Flower4.png environment/biome1/inside_props/flower_04 0
-T ressources/environment/biome1/inside/Biome1_Flower5.png environment/biome1/inside_props/flower_05 0
-T ressources/environment/biome1/inside/Biome1_Flower6.png environment/biome1/inside_props/flower_06 0
-T ressources/environment/biome1/inside/Biome1_Flower7.png environment/biome1/inside_props/flower_07 0
-T ressources/environment/biome1/inside/Biome1_Flower8.png environment/biome1/inside_props/flower_08 0
-T ressources/environment/biome1/inside/Biome1_Flower9.png environment/biome1/inside_props/flower_09 0
-T ressources/environment/biome1/inside/Biome1_Flower2.png environment/biome1/inside_props/flower_02 0
-T ressources/environment/biome1/inside/Biome1_Flower10.png environment/biome1/inside_props/flower_10 0
-T ressources/environment/biome1/inside/Biome1_Flower11.png environment/biome1/inside_props/flower_11 0
-T ressources/environment/biome1/inside/Biome1_Flower12.png environment/biome1/inside_props/flower_12 0
-T ressources/environment/biome1/inside/Biome1_Flower13.png environment/biome1/inside_props/flower_13 0
-T ressources/environment/biome1/inside/Biome1_Flower14.png environment/biome1/inside_props/flower_14 0
-T ressources/environment/biome1/inside/Biome1_Flower15.png environment/biome1/inside_props/flower_15 0
-T ressources/environment/biome1/inside/Biome1_Flower16.png environment/biome1/inside_props/flower_16 0
-T ressources/environment/biome1/inside/Biome1_Flower17.png environment/biome1/inside_props/flower_17 0
-T ressources/environment/biome1/inside/Biome1_Flower18.png environment/biome1/inside_props/flower_18 0
-T ressources/environment/biome1/inside/Biome1_Flower19.png environment/biome1/inside_props/flower_19 0
-T ressources/environment/biome1/inside/Biome1_Flower20.png environment/biome1/inside_props/flower_20 0
-T ressources/environment/biome1/inside/Biome1_Flower21.png environment/biome1/inside_props/flower_21 0
-T ressources/environment/biome1/inside/Biome1_Flower22.png environment/biome1/inside_props/flower_22 0
-T ressources/environment/biome1/inside/Biome1_Flower23.png environment/biome1/inside_props/flower_23 0
-T ressources/environment/biome1/inside/Biome1_Flower24.png environment/biome1/inside_props/flower_24 0
-T ressources/environment/biome1/inside/Biome1_Grass1.png environment/biome1/inside_props/grass_01 0
-T ressources/environment/biome1/inside/Biome1_Grass2.png environment/biome1/inside_props/grass_02 0
-T ressources/environment/biome1/inside/Biome1_Grass3.png environment/biome1/inside_props/grass_03 0
-T ressources/environment/biome1/inside/Biome1_Grass4.png environment/biome1/inside_props/grass_04 0
-T ressources/environment/biome1/inside/Biome1_Grass5.png environment/biome1/inside_props/grass_05 0
-T ressources/environment/biome1/inside/Biome1_Grass6.png environment/biome1/inside_props/grass_06 0
-T ressources/environment/biome1/inside/Biome1_Grass7.png environment/biome1/inside_props/grass_07 0
-T ressources/environment/biome1/inside/Biome1_Grass8.png environment/biome1/inside_props/grass_08 0
-T ressources/environment/biome1/inside/Biome1_Grass9.png environment/biome1/inside_props/grass_09 0
-T ressources/environment/biome1/inside/Biome1_Grass10.png environment/biome1/inside_props/grass_10 0
-T ressources/environment/biome1/inside/Biome1_Grass11.png environment/biome1/inside_props/grass_11 0
-T ressources/environment/biome1/inside/Biome1_GrassPattern1.png environment/biome1/inside_props/grass_pattern1 0
-T ressources/environment/biome1/inside/Biome1_GrassPattern2.png environment/biome1/inside_props/grass_pattern2 0
-T ressources/environment/biome1/inside/Biome1_GrassPattern3.png environment/biome1/inside_props/grass_pattern3 0
-T ressources/environment/biome1/inside/Biome1_StoneCover1.png environment/biome1/inside_props/stone_cover1 0
-T ressources/environment/biome1/inside/Biome1_StoneCover2.png environment/biome1/inside_props/stone_cover2 0
-T ressources/environment/biome1/inside/Biome1_StoneCover3.png environment/biome1/inside_props/stone_cover3 0
-T ressources/environment/biome1/inside/Biome1_StoneCover4.png environment/biome1/inside_props/stone_cover4 0
-T ressources/environment/biome1/inside/Biome1_StoneCover5.png environment/biome1/inside_props/stone_cover5 0
-T ressources/environment/biome1/inside/Biome1_StoneCover6.png environment/biome1/inside_props/stone_cover6 0
-T ressources/environment/biome1/inside/Biome1_StoneCover7.png environment/biome1/inside_props/stone_cover7 0
-T ressources/environment/biome1/inside/PD_bald_door_01.png environment/biome1/inside_props/bald_door 0
-T ressources/environment/biome1/inside/PD_grass_bald_01.png environment/biome1/inside_props/grass_bald_01 0
-T ressources/environment/biome1/inside/PD_grass_bald_02.png environment/biome1/inside_props/grass_bald_02 0
-T ressources/environment/biome1/inside/PD_grass_bald_03.png environment/biome1/inside_props/grass_bald_03 0
-T ressources/environment/biome1/inside/PD_grass_bald_type02_01.png environment/biome1/inside_props/grass_bald_01_2 0
+T ressources/environment/biome1/inside/Biome1_DoorGround.png                    environment/biome1/inside_props/door_ground                         FALSE
+T ressources/environment/biome1/inside/Biome1_Flower1.png                       environment/biome1/inside_props/flower_01                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower3.png                       environment/biome1/inside_props/flower_03                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower4.png                       environment/biome1/inside_props/flower_04                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower5.png                       environment/biome1/inside_props/flower_05                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower6.png                       environment/biome1/inside_props/flower_06                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower7.png                       environment/biome1/inside_props/flower_07                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower8.png                       environment/biome1/inside_props/flower_08                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower9.png                       environment/biome1/inside_props/flower_09                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower2.png                       environment/biome1/inside_props/flower_02                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower10.png                      environment/biome1/inside_props/flower_10                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower11.png                      environment/biome1/inside_props/flower_11                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower12.png                      environment/biome1/inside_props/flower_12                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower13.png                      environment/biome1/inside_props/flower_13                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower14.png                      environment/biome1/inside_props/flower_14                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower15.png                      environment/biome1/inside_props/flower_15                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower16.png                      environment/biome1/inside_props/flower_16                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower17.png                      environment/biome1/inside_props/flower_17                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower18.png                      environment/biome1/inside_props/flower_18                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower19.png                      environment/biome1/inside_props/flower_19                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower20.png                      environment/biome1/inside_props/flower_20                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower21.png                      environment/biome1/inside_props/flower_21                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower22.png                      environment/biome1/inside_props/flower_22                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower23.png                      environment/biome1/inside_props/flower_23                           FALSE
+T ressources/environment/biome1/inside/Biome1_Flower24.png                      environment/biome1/inside_props/flower_24                           FALSE
+T ressources/environment/biome1/inside/Biome1_Grass1.png                        environment/biome1/inside_props/grass_01                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass2.png                        environment/biome1/inside_props/grass_02                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass3.png                        environment/biome1/inside_props/grass_03                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass4.png                        environment/biome1/inside_props/grass_04                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass5.png                        environment/biome1/inside_props/grass_05                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass6.png                        environment/biome1/inside_props/grass_06                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass7.png                        environment/biome1/inside_props/grass_07                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass8.png                        environment/biome1/inside_props/grass_08                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass9.png                        environment/biome1/inside_props/grass_09                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass10.png                       environment/biome1/inside_props/grass_10                            FALSE
+T ressources/environment/biome1/inside/Biome1_Grass11.png                       environment/biome1/inside_props/grass_11                            FALSE
+T ressources/environment/biome1/inside/Biome1_GrassPattern1.png                 environment/biome1/inside_props/grass_pattern1                      FALSE
+T ressources/environment/biome1/inside/Biome1_GrassPattern2.png                 environment/biome1/inside_props/grass_pattern2                      FALSE
+T ressources/environment/biome1/inside/Biome1_GrassPattern3.png                 environment/biome1/inside_props/grass_pattern3                      FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover1.png                   environment/biome1/inside_props/stone_cover1                        FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover2.png                   environment/biome1/inside_props/stone_cover2                        FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover3.png                   environment/biome1/inside_props/stone_cover3                        FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover4.png                   environment/biome1/inside_props/stone_cover4                        FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover5.png                   environment/biome1/inside_props/stone_cover5                        FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover6.png                   environment/biome1/inside_props/stone_cover6                        FALSE
+T ressources/environment/biome1/inside/Biome1_StoneCover7.png                   environment/biome1/inside_props/stone_cover7                        FALSE
+T ressources/environment/biome1/inside/PD_bald_door_01.png                      environment/biome1/inside_props/bald_door                           FALSE
+T ressources/environment/biome1/inside/PD_grass_bald_01.png                     environment/biome1/inside_props/grass_bald_01                       FALSE
+T ressources/environment/biome1/inside/PD_grass_bald_02.png                     environment/biome1/inside_props/grass_bald_02                       FALSE
+T ressources/environment/biome1/inside/PD_grass_bald_03.png                     environment/biome1/inside_props/grass_bald_03                       FALSE
+T ressources/environment/biome1/inside/PD_grass_bald_type02_01.png              environment/biome1/inside_props/grass_bald_01_2                     FALSE
 #
+# Outside
+#
+T ressources/environment/biome1/outside/Biome1_Apples1.png                      environment/biome1/outside_props/apples1                            FALSE
+T ressources/environment/biome1/outside/Biome1_Burrow1.png                      environment/biome1/outside_props/burrow1                            FALSE
+T ressources/environment/biome1/outside/Biome1_Bush1.png                        environment/biome1/outside_props/bush1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Bush2.png                        environment/biome1/outside_props/bush2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Bush3.png                        environment/biome1/outside_props/bush3                              FALSE
+T ressources/environment/biome1/outside/Biome1_Bush4.png                        environment/biome1/outside_props/bush4                              FALSE
+T ressources/environment/biome1/outside/Biome1_door_back_01.png                 environment/biome1/outside_props/door_back_01                       FALSE
+T ressources/environment/biome1/outside/Biome1_Grass1.png                       environment/biome1/outside_props/grass1                             FALSE
+T ressources/environment/biome1/outside/Biome1_Grass2.png                       environment/biome1/outside_props/grass2                             FALSE
+T ressources/environment/biome1/outside/Biome1_Grass3.png                       environment/biome1/outside_props/grass3                             FALSE
+T ressources/environment/biome1/outside/Biome1_Grass4.png                       environment/biome1/outside_props/grass4                             FALSE
+T ressources/environment/biome1/outside/Biome1_GrassPatchDark1.png              environment/biome1/outside_props/grassPatchDark1                    FALSE
+T ressources/environment/biome1/outside/Biome1_GrassPatchDark2.png              environment/biome1/outside_props/grassPatchDark2                    FALSE
+T ressources/environment/biome1/outside/Biome1_GrassPatchDark3.png              environment/biome1/outside_props/grassPatchDark3                    FALSE
+T ressources/environment/biome1/outside/Biome1_GrassPatchDark4.png              environment/biome1/outside_props/grassPatchDark4                    FALSE
+T ressources/environment/biome1/outside/Biome1_Hill1.png                        environment/biome1/outside_props/hill1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Hill2.png                        environment/biome1/outside_props/hill2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves10.png                     environment/biome1/outside_props/leaves10                           FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves11.png                     environment/biome1/outside_props/leaves11                           FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves12.png                     environment/biome1/outside_props/leaves12                           FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves1.png                      environment/biome1/outside_props/leaves1                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves2.png                      environment/biome1/outside_props/leaves2                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves3.png                      environment/biome1/outside_props/leaves3                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves4.png                      environment/biome1/outside_props/leaves4                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves5.png                      environment/biome1/outside_props/leaves5                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves6.png                      environment/biome1/outside_props/leaves6                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves7.png                      environment/biome1/outside_props/leaves7                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves8.png                      environment/biome1/outside_props/leaves8                            FALSE
+T ressources/environment/biome1/outside/Biome1_Leaves9.png                      environment/biome1/outside_props/leaves9                            FALSE
+T ressources/environment/biome1/outside/Biome1_Lilypad1.png                     environment/biome1/outside_props/lilypad1                           FALSE
+T ressources/environment/biome1/outside/Biome1_Lilypad2.png                     environment/biome1/outside_props/lilypad2                           FALSE
+T ressources/environment/biome1/outside/Biome1_Lilypad3.png                     environment/biome1/outside_props/lilypad3                           FALSE
+T ressources/environment/biome1/outside/Biome1_Lilypad4.png                     environment/biome1/outside_props/lilypad4                           FALSE
+T ressources/environment/biome1/outside/Biome1_LilypadFlower1.png               environment/biome1/outside_props/lilypad_flower1                    FALSE
+T ressources/environment/biome1/outside/Biome1_LilypadFlower2.png               environment/biome1/outside_props/lilypad_flower2                    FALSE
+T ressources/environment/biome1/outside/Biome1_LilypadFlower3.png               environment/biome1/outside_props/lilypad_flower3                    FALSE
+T ressources/environment/biome1/outside/Biome1_LilypadFlower4.png               environment/biome1/outside_props/lilypad_flower4                    FALSE
+T ressources/environment/biome1/outside/Biome1_LilypadFlower5.png               environment/biome1/outside_props/lilypad_flower5                    FALSE
+T ressources/environment/biome1/outside/Biome1_Nest1.png                        environment/biome1/outside_props/nest1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Nest2.png                        environment/biome1/outside_props/nest2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Nest3.png                        environment/biome1/outside_props/nest3                              FALSE
+T ressources/environment/biome1/outside/Biome1_Nest4.png                        environment/biome1/outside_props/nest4                              FALSE
+T ressources/environment/biome1/outside/Biome1_Plant1.png                       environment/biome1/outside_props/plant1                             FALSE
+T ressources/environment/biome1/outside/Biome1_Plant2.png                       environment/biome1/outside_props/plant2                             FALSE
+T ressources/environment/biome1/outside/Biome1_Plant3.png                       environment/biome1/outside_props/plant3                             FALSE
+T ressources/environment/biome1/outside/Biome1_Pond1_52x72.png                  environment/biome1/outside_props/pond1_sprite                       TRUE 7 1 TRUE
+T ressources/environment/biome1/outside/Biome1_Pond1.png                        environment/biome1/outside_props/pond1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Pond2_68x42.png                  environment/biome1/outside_props/pond2_sprite                       TRUE 7 1 TRUE
+T ressources/environment/biome1/outside/Biome1_Pond2.png                        environment/biome1/outside_props/pond2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Pond3_53x52.png                  environment/biome1/outside_props/pond3_sprite                       TRUE 7 1 TRUE
+T ressources/environment/biome1/outside/Biome1_Pond3.png                        environment/biome1/outside_props/pond3                              FALSE
+T ressources/environment/biome1/outside/Biome1_Pond4_53x44.png                  environment/biome1/outside_props/pond4_sprite                       TRUE 7 1 TRUE
+T ressources/environment/biome1/outside/Biome1_Pond4.png                        environment/biome1/outside_props/pond4                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock1.png                        environment/biome1/outside_props/rock1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock2.png                        environment/biome1/outside_props/rock2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock3.png                        environment/biome1/outside_props/rock3                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock4.png                        environment/biome1/outside_props/rock4                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock5.png                        environment/biome1/outside_props/rock5                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock6.png                        environment/biome1/outside_props/rock6                              FALSE
+T ressources/environment/biome1/outside/Biome1_Rock7.png                        environment/biome1/outside_props/rock7                              FALSE
+T ressources/environment/biome1/outside/Biome1_Sign1.png                        environment/biome1/outside_props/sign1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Sign2.png                        environment/biome1/outside_props/sign2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Sign3.png                        environment/biome1/outside_props/sign3                              FALSE
+T ressources/environment/biome1/outside/Biome1_Sign4.png                        environment/biome1/outside_props/sign4                              FALSE
+T ressources/environment/biome1/outside/Biome1_Sign5.png                        environment/biome1/outside_props/sign5                              FALSE
+T ressources/environment/biome1/outside/Biome1_SmallTrunk1.png                  environment/biome1/outside_props/small_trunk1                       FALSE
+T ressources/environment/biome1/outside/Biome1_SmallTrunk2.png                  environment/biome1/outside_props/small_trunk2                       FALSE
+T ressources/environment/biome1/outside/Biome1_SmallTrunk3.png                  environment/biome1/outside_props/small_trunk3                       FALSE
+T ressources/environment/biome1/outside/Biome1_SmallTrunk4.png                  environment/biome1/outside_props/small_trunk4                       FALSE
+T ressources/environment/biome1/outside/Biome1_Torch1.png                       environment/biome1/outside_props/torch1                             FALSE
+T ressources/environment/biome1/outside/Biome1_TorchWater1.png                  environment/biome1/outside_props/torch_water1                       FALSE
+T ressources/environment/biome1/outside/Biome1_Tree1.png                        environment/biome1/outside_props/tree1                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree2.png                        environment/biome1/outside_props/tree2                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree3.png                        environment/biome1/outside_props/tree3                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree4.png                        environment/biome1/outside_props/tree4                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree5.png                        environment/biome1/outside_props/tree5                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree6.png                        environment/biome1/outside_props/tree6                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree7.png                        environment/biome1/outside_props/tree7                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree8.png                        environment/biome1/outside_props/tree8                              FALSE
+T ressources/environment/biome1/outside/Biome1_Tree9.png                        environment/biome1/outside_props/tree9                              FALSE
+T ressources/environment/biome1/outside/Biome1_Trunk1.png                       environment/biome1/outside_props/trunk1                             FALSE
 #/////////////////////////////////////////////////////////////////////////////#
 # BIOME2
 #/////////////////////////////////////////////////////////////////////////////#
+#
+# TODO:
+#
+#/////////////////////////////////////////////////////////////////////////////#
+# PLAYER
+#/////////////////////////////////////////////////////////////////////////////#
+#
+# Adults
+#
+S ressources/player/adults/albino.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/algae.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/alien.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/anime.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/anomaly.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/astronaut.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/bananalotl.png           TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/bee.png                  TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/cartoon.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/caterkillah.png          TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/chadgeept.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/corgi.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/cowrolina.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/cthulotl.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/cyclops.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/dalmatian.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/dough.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/draco.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/druid.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/ember.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/enigma.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/firefly.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/froggo.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/goldy.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/imp.png                  TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/imsomnia.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/junkcat.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/knight.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/koi.png                  TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/lavender.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/melanoid.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/metal.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/midas.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/mud_whooper.png          TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/neon.png                 TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/original.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/pastel.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/pengu.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/piggy.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/poison.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/salamander.png           TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/skull.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/slime.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/spirit.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/teedy_bear.png           TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/tiger.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/trans.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/wild.png                 TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/wooper.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/x.png                    TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/adults/zombie.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
