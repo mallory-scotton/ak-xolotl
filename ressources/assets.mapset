@@ -22,6 +22,9 @@ C DEFAULT_FRAMERATE         10
 # BIOME1
 #/////////////////////////////////////////////////////////////////////////////#
 #
+Z START BIOME1
+#
+#
 # Boss
 #
 T ressources/environment/biome1/boss/Biome1_BossDeco1.png                       environment/biome1/boss/deco1                                       FALSE
@@ -49,27 +52,27 @@ T ressources/environment/biome1/boss/PD_water_lateral_01.png                    
 #
 # Destructibles
 #
-T ressources/environment/biome1/destructibles/Biome1_Destructible1.png          environment/biome1/destructibles/destructible01                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible2.png          environment/biome1/destructibles/destructible02                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible3.png          environment/biome1/destructibles/destructible03                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible4.png          environment/biome1/destructibles/destructible04                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible5.png          environment/biome1/destructibles/destructible05                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible6.png          environment/biome1/destructibles/destructible06                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible7.png          environment/biome1/destructibles/destructible07                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible8.png          environment/biome1/destructibles/destructible08                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible9.png          environment/biome1/destructibles/destructible09                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible10.png         environment/biome1/destructibles/destructible10                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_Destructible11.png         environment/biome1/destructibles/destructible11                     FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie1.png    environment/biome1/destructibles/destructible_veggie1               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie2.png    environment/biome1/destructibles/destructible_veggie2               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie3.png    environment/biome1/destructibles/destructible_veggie3               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie4.png    environment/biome1/destructibles/destructible_veggie4               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie5.png    environment/biome1/destructibles/destructible_veggie5               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie6.png    environment/biome1/destructibles/destructible_veggie6               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie7.png    environment/biome1/destructibles/destructible_veggie7               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie8.png    environment/biome1/destructibles/destructible_veggie8               FALSE
-T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie9.png    environment/biome1/destructibles/destructible_veggie9               FALSE
-T ressources/environment/biome1/destructibles/Biome1_herbs_destructible_01.png  environment/biome1/destructibles/herbs_destructible                 TRUE 2 1 FALSE
+T ressources/environment/biome1/destructibles/Biome1_Destructible1.png          environment/biome1/destructibles/destructible01                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible2.png          environment/biome1/destructibles/destructible02                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible3.png          environment/biome1/destructibles/destructible03                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible4.png          environment/biome1/destructibles/destructible04                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible5.png          environment/biome1/destructibles/destructible05                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible6.png          environment/biome1/destructibles/destructible06                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible7.png          environment/biome1/destructibles/destructible07                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible8.png          environment/biome1/destructibles/destructible08                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible9.png          environment/biome1/destructibles/destructible09                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible10.png         environment/biome1/destructibles/destructible10                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_Destructible11.png         environment/biome1/destructibles/destructible11                     FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie1.png    environment/biome1/destructibles/destructible_veggie1               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie2.png    environment/biome1/destructibles/destructible_veggie2               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie3.png    environment/biome1/destructibles/destructible_veggie3               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie4.png    environment/biome1/destructibles/destructible_veggie4               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie5.png    environment/biome1/destructibles/destructible_veggie5               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie6.png    environment/biome1/destructibles/destructible_veggie6               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie7.png    environment/biome1/destructibles/destructible_veggie7               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie8.png    environment/biome1/destructibles/destructible_veggie8               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_DestructibleVeggie9.png    environment/biome1/destructibles/destructible_veggie9               FALSE                   DESTRUCTIBLES
+T ressources/environment/biome1/destructibles/Biome1_herbs_destructible_01.png  environment/biome1/destructibles/herbs_destructible                 TRUE 2 1 FALSE          DESTRUCTIBLES
 #
 # Doors
 #
@@ -225,6 +228,9 @@ T ressources/environment/biome1/outside/Biome1_Tree7.png                        
 T ressources/environment/biome1/outside/Biome1_Tree8.png                        environment/biome1/outside_props/tree8                              FALSE
 T ressources/environment/biome1/outside/Biome1_Tree9.png                        environment/biome1/outside_props/tree9                              FALSE
 T ressources/environment/biome1/outside/Biome1_Trunk1.png                       environment/biome1/outside_props/trunk1                             FALSE
+#
+Z END
+#
 #/////////////////////////////////////////////////////////////////////////////#
 # BIOME2
 #/////////////////////////////////////////////////////////////////////////////#
@@ -237,55 +243,56 @@ T ressources/environment/biome1/outside/Biome1_Trunk1.png                       
 #
 # Adults
 #
-S ressources/player/debug.png                       TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/albino.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/algae.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/alien.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/anime.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/anomaly.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/astronaut.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/bananalotl.png           TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/bee.png                  TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/cartoon.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/caterkillah.png          TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/chadgeept.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/corgi.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/cowrolina.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/cthulotl.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/cyclops.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/dalmatian.png            TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/dough.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/draco.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/druid.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/ember.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/enigma.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/firefly.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/froggo.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/goldy.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/imp.png                  TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/imsomnia.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/junkcat.png              TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/knight.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/koi.png                  TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/lavender.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/melanoid.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/metal.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/midas.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/mud_whooper.png          TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/neon.png                 TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/original.png             TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/pastel.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/pengu.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/piggy.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/poison.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/salamander.png           TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/skull.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/slime.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/spirit.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/teedy_bear.png           TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/tiger.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/trans.png                TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/wild.png                 TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/wooper.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/x.png                    TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
-S ressources/player/adults/zombie.png               TRUE 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+F AXOLOTL_ADULT 10 9 (sit 0 3 DEFAULT FALSE) (walk 4 9 DEFAULT TRUE) (hit 10 11 DEFAULT FALSE) (death 12 21 DEFAULT FALSE) (idle 22 25 DEFAULT TRUE) (dash 26 32 DEFAULT FALSE) (dance 34 37 DEFAULT TRUE) (eat 38 47 DEFAULT FALSE) (regenerate 38 68 DEFAULT FALSE) (sacrifice 73 80 DEFAULT FALSE)
+S ressources/player/debug.png                       TRUE AXOLOTL_ADULT
+S ressources/player/adults/albino.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/algae.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/alien.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/anime.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/anomaly.png              TRUE AXOLOTL_ADULT
+S ressources/player/adults/astronaut.png            TRUE AXOLOTL_ADULT
+S ressources/player/adults/bananalotl.png           TRUE AXOLOTL_ADULT
+S ressources/player/adults/bee.png                  TRUE AXOLOTL_ADULT
+S ressources/player/adults/cartoon.png              TRUE AXOLOTL_ADULT
+S ressources/player/adults/caterkillah.png          TRUE AXOLOTL_ADULT
+S ressources/player/adults/chadgeept.png            TRUE AXOLOTL_ADULT
+S ressources/player/adults/corgi.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/cowrolina.png            TRUE AXOLOTL_ADULT
+S ressources/player/adults/cthulotl.png             TRUE AXOLOTL_ADULT
+S ressources/player/adults/cyclops.png              TRUE AXOLOTL_ADULT
+S ressources/player/adults/dalmatian.png            TRUE AXOLOTL_ADULT
+S ressources/player/adults/dough.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/draco.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/druid.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/ember.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/enigma.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/firefly.png              TRUE AXOLOTL_ADULT
+S ressources/player/adults/froggo.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/goldy.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/imp.png                  TRUE AXOLOTL_ADULT
+S ressources/player/adults/imsomnia.png             TRUE AXOLOTL_ADULT
+S ressources/player/adults/junkcat.png              TRUE AXOLOTL_ADULT
+S ressources/player/adults/knight.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/koi.png                  TRUE AXOLOTL_ADULT
+S ressources/player/adults/lavender.png             TRUE AXOLOTL_ADULT
+S ressources/player/adults/melanoid.png             TRUE AXOLOTL_ADULT
+S ressources/player/adults/metal.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/midas.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/mud_whooper.png          TRUE AXOLOTL_ADULT
+S ressources/player/adults/neon.png                 TRUE AXOLOTL_ADULT
+S ressources/player/adults/original.png             TRUE AXOLOTL_ADULT
+S ressources/player/adults/pastel.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/pengu.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/piggy.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/poison.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/salamander.png           TRUE AXOLOTL_ADULT
+S ressources/player/adults/skull.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/slime.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/spirit.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/teedy_bear.png           TRUE AXOLOTL_ADULT
+S ressources/player/adults/tiger.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/trans.png                TRUE AXOLOTL_ADULT
+S ressources/player/adults/wild.png                 TRUE AXOLOTL_ADULT
+S ressources/player/adults/wooper.png               TRUE AXOLOTL_ADULT
+S ressources/player/adults/x.png                    TRUE AXOLOTL_ADULT
+S ressources/player/adults/zombie.png               TRUE AXOLOTL_ADULT
