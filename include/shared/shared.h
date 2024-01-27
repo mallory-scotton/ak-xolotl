@@ -14,5 +14,6 @@
     #include "shared/char.h"
     #include "shared/strings.h"
     #include "shared/memory.h"
+    #include "shared/numbers.h"
 
 #endif /* !SHARED_H_ */
