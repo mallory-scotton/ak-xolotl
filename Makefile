@@ -13,6 +13,7 @@ SRC		=		source/*.c \
 				source/shared/char/*.c \
 				source/shared/strings/*.c \
 				source/shared/memory/*.c \
+				source/shared/numbers/*.c \
 				source/ressources/*.c
 
 LIB		=		-lcsfml-system \
