@@ -82,6 +82,7 @@
     #include "engine/dependencies.h"
     #include "engine/types.h"
     #include "engine/mapset.h"
+    #include "engine/time.h"
     #include "engine/macros.h"
     #include "shared/shared.h"
 
