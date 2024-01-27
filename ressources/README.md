@@ -82,8 +82,8 @@ To create a tiles you can use:
 
 ```ini
 T <FILE_PATH> <BROWSER_PATH> <IS_ANIMATED>
-                                 FALSE      [GRID_X] [GRID_Y] [END] [PREVIEW] [CLASS_NAME]
-                                 TRUE       [CLASS_NAME]
+                                 TRUE       [GRID_X] [GRID_Y] [END] [PREVIEW] [CLASS_NAME]
+                                 FALSE      [CLASS_NAME]
 ```
 
 - `FILE_PATH`: the local/absolute filepath (local is safer)
