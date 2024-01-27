@@ -84,6 +84,7 @@
     #include "engine/mapset.h"
     #include "engine/time.h"
     #include "engine/macros.h"
+    #include "engine/maths.h"
     #include "shared/shared.h"
 
 #endif /* !RPG_H_ */
