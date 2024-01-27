@@ -100,29 +100,43 @@ string *my_stowa(string str);
 ///////////////////////////////////////////////////////////////////////////////
 /// \brief Convert a string to a long integer
 ///
-/// This function converts the initial part of the string pointed to by 's' to
-/// a long integer representation. It also updates the 'ptr' pointer to point
-/// to the first non-converted character in the string.
-///
 /// \param s     The string to convert
 /// \param ptr   A pointer to a pointer to char, which will be updated to point
 ///              to the first non-converted character
 ///
 /// \return      The converted long integer value
+///
 ///////////////////////////////////////////////////////////////////////////////
 int my_strtol(char *s, char **ptr);
 
 ///////////////////////////////////////////////////////////////////////////////
 /// \brief Duplicate a string
 ///
-/// This function duplicates the input string 'str' using dynamic memory
-/// allocation. It returns a pointer to the newly allocated string.
-///
 /// \param str   The input string to duplicate
 ///
 /// \return      A pointer to the duplicated string, or NULL if memory
 ///              allocation fails
+///
 ///////////////////////////////////////////////////////////////////////////////
 string my_strdup(cstring str);
+
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Calculate the length of a null-terminated array of strings
+///
+/// \param wa   Pointer to the null-terminated array of strings
+///
+/// \return     The length of the array (number of strings)
+///
+///////////////////////////////////////////////////////////////////////////////
+ulong my_walen(string *wa);
+
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Deallocate memory for a null-terminated array of strings
+///
+///
+/// \param wa  Pointer to the null-terminated array of strings
+///
+///////////////////////////////////////////////////////////////////////////////
+void my_watroy(string *wa);
 
 #endif /* !STRINGS_H_ */

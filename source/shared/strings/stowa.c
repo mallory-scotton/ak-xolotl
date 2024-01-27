@@ -65,3 +65,17 @@ string *my_stowa(string str)
     wa[wi + 1] = NULL;
     return (wa);
 }
+
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Deallocate memory for a null-terminated array of strings
+///
+/// \param wa  Pointer to the null-terminated array of strings
+///
+///////////////////////////////////////////////////////////////////////////////
+void my_watroy(string *wa)
+{
+    RETURN(wa == NULL, (void)0);
+    for (ulong i = 0; wa[i]; i++)
+        free(wa[i]);
+    free(wa);
+}

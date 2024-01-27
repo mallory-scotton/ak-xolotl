@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2024
 ** ak-xolotl
 ** File description:
-** strdup
+** walen
 */
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -11,22 +11,17 @@
 #include "engine.h"
 
 ///////////////////////////////////////////////////////////////////////////////
-/// \brief Duplicate a string
+/// \brief Calculate the length of a null-terminated array of strings
 ///
-/// \param str   The input string to duplicate
+/// \param wa   Pointer to the null-terminated array of strings
 ///
-/// \return      A pointer to the duplicated string, or NULL if memory
-///              allocation fails
+/// \return     The length of the array (number of strings)
 ///
 ///////////////////////////////////////////////////////////////////////////////
-string my_strdup(cstring str)
+ulong my_walen(string *wa)
 {
-    ulong len = my_strlen(str) + 1;
-    string copy;
+    string *swa = wa;
 
-    copy = malloc((uint)len);
-    if (!copy)
-        return (NULL);
-    my_memcpy(copy, str, len);
-    return (copy);
+    for (; *wa; wa++);
+    return (wa - swa);
 }

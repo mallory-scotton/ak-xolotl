@@ -18,6 +18,7 @@
 ///
 /// \return Pointer to the first occurrence of the character in the string,
 /// or NULL if not found.
+///
 ///////////////////////////////////////////////////////////////////////////////
 string my_strchr(cstring p, int ch)
 {

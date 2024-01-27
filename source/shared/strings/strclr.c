@@ -16,6 +16,7 @@
 /// \param str   The string to clear.
 ///
 /// \return      A pointer to the modified string.
+///
 ///////////////////////////////////////////////////////////////////////////////
 string my_strclr(string str)
 {
