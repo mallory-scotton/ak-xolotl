@@ -20,5 +20,6 @@
     #include <stdlib.h>
     #include <sys/stat.h>
     #include <limits.h>
+    #include <math.h>
 
 #endif /* !DEPENDENCIES_H_ */
