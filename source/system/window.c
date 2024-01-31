@@ -56,3 +56,20 @@ status system_window_init(void)
     }
     return (success);
 }
+
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Destroy the system window
+///
+/// This function checks if the system window exists and, if so, destroys it
+/// using sfRenderWindow_destroy. It is responsible for cleaning up the
+/// allocated resources associated with the system window.
+///
+/// \return Returns 'success' after successfully destroying the window
+///
+///////////////////////////////////////////////////////////////////////////////
+status system_window_destroy(void)
+{
+    if (Window.win)
+        sfRenderWindow_destroy(Window.win);
+    return (success);
+}
