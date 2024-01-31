@@ -86,6 +86,7 @@
     #include "engine/macros.h"
     #include "engine/maths.h"
     #include "engine/window.h"
+    #include "engine/level.h"
     #include "shared/shared.h"
 
 #endif /* !RPG_H_ */
