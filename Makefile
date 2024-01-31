@@ -15,7 +15,8 @@ SRC		=		source/*.c \
 				source/shared/memory/*.c \
 				source/shared/numbers/*.c \
 				source/ressources/*.c \
-				source/system/*.c
+				source/system/*.c \
+				source/level/*.c
 
 LIB		=		-lcsfml-system \
 				-lcsfml-window \
