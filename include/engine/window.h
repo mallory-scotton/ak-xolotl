@@ -14,6 +14,7 @@
     #include "engine/dependencies.h"
     #include "engine/types.h"
 
+// Enumeration representing the screen state of the window
 typedef enum {
     windowed,
     borderless,
@@ -30,6 +31,7 @@ typedef enum {
     #define WINDOW_STYLE (sfResize | sfClose)
     #define WINDOW_ICON NULL
 
+// Structure representing the settings of the window
 typedef struct window_setting_s {
     uint width;
     uint height;
@@ -39,14 +41,23 @@ typedef struct window_setting_s {
     window_screen_state_t screen;
 } window_setting_t;
 
+// Structure representing the window
 typedef struct {
     sfRenderWindow *win;
     sfVideoMode mode;
     window_setting_t settings;
 } window_t;
 
+// External declaration of the global window instance
 extern window_t Window;
 
-
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Initialize the system window
+///
+/// \return Returns 'success' on successful window initialization, 'fail'
+/// otherwise
+///
+///////////////////////////////////////////////////////////////////////////////
+status system_window_init(void);
 
 #endif /* !WINDOW_H_ */
