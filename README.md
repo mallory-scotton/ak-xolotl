@@ -23,5 +23,3 @@ To build this project you will need:
 - Makefile
 - [CSFML](https://github.com/SFML/CSFML)
 - GNU LibC
-
-![](https://files.catbox.moe/iso13s.mp4)
