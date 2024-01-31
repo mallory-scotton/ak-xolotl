@@ -1,0 +1,52 @@
+/*
+** EPITECH PROJECT, 2024
+** ak-xolotl
+** File description:
+** window
+*/
+
+#ifndef WINDOW_H_
+    #define WINDOW_H_
+
+///////////////////////////////////////////////////////////////////////////////
+// Headers
+///////////////////////////////////////////////////////////////////////////////
+    #include "engine/dependencies.h"
+    #include "engine/types.h"
+
+typedef enum {
+    windowed,
+    borderless,
+    fullscreen
+} window_screen_state_t;
+
+    #define DEFAULT_WINDOW_WIDTH 1920
+    #define DEFAULT_WINDOW_HEIGHT 1080
+    #define DEFAULT_WINDOW_BIT 32
+    #define DEFAULT_WINDOW_FPS 60
+    #define DEFAULT_WINDOW_CAPED_FPS true
+    #define DEFAULT_WINDOW_SCREEN fullscreen
+    #define WINDOW_TITLE "Ak-xolotl"
+    #define WINDOW_STYLE (sfResize | sfClose)
+    #define WINDOW_ICON NULL
+
+typedef struct window_setting_s {
+    uint width;
+    uint height;
+    uint bits;
+    uint maxfps;
+    bool capedfps;
+    window_screen_state_t screen;
+} window_setting_t;
+
+typedef struct {
+    sfRenderWindow *win;
+    sfVideoMode mode;
+    window_setting_t settings;
+} window_t;
+
+extern window_t Window;
+
+
+
+#endif /* !WINDOW_H_ */

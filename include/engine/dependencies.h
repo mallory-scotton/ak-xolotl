@@ -21,5 +21,7 @@
     #include <sys/stat.h>
     #include <limits.h>
     #include <math.h>
+    #include <string.h>
+    #include <malloc.h>
 
 #endif /* !DEPENDENCIES_H_ */

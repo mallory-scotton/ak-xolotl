@@ -26,7 +26,20 @@
 /// \param n     Number of bytes to copy
 ///
 /// \return      Pointer to the destination memory area ('dst')
+///
 ///////////////////////////////////////////////////////////////////////////////
 void *my_memcpy(void *dst, const void *src, ulong n);
+
+///////////////////////////////////////////////////////////////////////////////
+/// \brief Reallocate memory for a block with a new size and copy the
+/// existing data.
+///
+/// \param ptr   Pointer to the current memory block to be reallocated.
+/// \param size  New size of the memory block in bytes.
+///
+/// \return      Pointer to the reallocated and copied memory block.
+///
+///////////////////////////////////////////////////////////////////////////////
+void *my_realloc(void *ptr, ulong size);
 
 #endif /* !MEMORY_H_ */
