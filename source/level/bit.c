@@ -23,7 +23,7 @@ void bwrite(ustring buffer, pint bpos, uint value, uint bsize)
 {
     int bit;
 
-    for (uint i = bsize - 1; i >= 0; i--) {
+    for (int i = bsize - 1; i >= 0; i--) {
         bit = (value >> i) & 1;
         buffer[*bpos / 8] |= (bit << (*bpos % 8));
         (*bpos)++;
