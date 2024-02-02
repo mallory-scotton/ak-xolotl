@@ -27,9 +27,9 @@ typedef enum {
     #define DEFAULT_WINDOW_FPS 60
     #define DEFAULT_WINDOW_CAPED_FPS true
     #define DEFAULT_WINDOW_SCREEN fullscreen
-    #define WINDOW_TITLE "Ak-xolotl"
+    #define WINDOW_TITLE "ak-xolotl"
     #define WINDOW_STYLE (sfResize | sfClose)
-    #define WINDOW_ICON NULL
+    #define WINDOW_ICON "./ressources/icon.png"
 
 // Structure representing the settings of the window
 typedef struct window_setting_s {
