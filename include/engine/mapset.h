@@ -89,11 +89,13 @@ typedef struct {
 ///
 /// \param name         The name of the animation sheet
 /// \param animations   The animations array
+/// \param anim_count   The number of animation in the sheet
 ///
 ///////////////////////////////////////////////////////////////////////////////
 typedef struct {
     string name;
     animation_t *animations;
+    uint anim_count;
 } animation_sheet_t;
 
 ///////////////////////////////////////////////////////////////////////////////
