@@ -76,7 +76,7 @@ typedef enum {
 
 // Structure representing an area in the level
 typedef struct {
-    area_type_e area_type;
+    area_type_e type;
     vec2u size;
     vec2u position;
 } level_area_t;
