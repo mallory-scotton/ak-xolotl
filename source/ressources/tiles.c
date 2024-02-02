@@ -91,6 +91,7 @@ static tile_t *mapset_tile_create(string *wa, ulong wl)
         mapset_tile_parse_animation(wa, wl, t);
     else if (wl == 5)
         t->class_name = my_strdup(wa[4]);
+    return (t);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
