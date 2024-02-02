@@ -22,6 +22,10 @@
 *.css
 *.html
 
+# Ignore tests fragments
+/*.frag
+/*.vert
+
 # Ignore objects
 *.a
 *.o
