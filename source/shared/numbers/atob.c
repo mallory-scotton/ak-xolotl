@@ -24,6 +24,8 @@ bool my_atob(string str)
 
     RETURN(len == 1, str[0] - '0');
     RETURN((!my_strcmp(str, "FALSE") || !my_strcmp(str, "false")), false);
+    RETURN((!my_strcmp(str, "FALSE)") || !my_strcmp(str, "false)")), false);
     RETURN((!my_strcmp(str, "TRUE") || !my_strcmp(str, "true")), true);
+    RETURN((!my_strcmp(str, "TRUE)") || !my_strcmp(str, "true)")), true);
     return (false);
 }
