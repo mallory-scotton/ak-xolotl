@@ -10,7 +10,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 #include "engine.h"
 
-static void splashscreen_load()
+static void splashscreen_load(void)
 {
     for (uint x = 0; x < 6; x++)
         for (uint i = 0; i < 2147483648; i++);
@@ -70,8 +70,8 @@ void splashscreen(void)
 
     splashscreen_icon(window);
     sfRenderWindow_setSize(window, (vec2u){splash.width, splash.height});
-    sfRenderWindow_setPosition(window, (vec2i){
-        (screen.width - splash.width) / 2, (screen.height - splash.height) / 2});
+    sfRenderWindow_setPosition(window, (vec2i){(screen.width - splash.width)
+        / 2, (screen.height - splash.height) / 2});
     slpashscreen_draw(window, "./ressources/cover.jpg", (vec2f){0, 0});
     slpashscreen_draw(window, "./ressources/logo.png", (vec2f){135, 117});
     sfRenderWindow_display(window);
