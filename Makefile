@@ -67,3 +67,8 @@ tests_fclean: tests_clean
 	rm -f unit_tests
 
 tests_re: tests_fclean tests_run
+
+style:
+	coding-style . .
+	grep -v ":1:" coding-style-reports.log > reports.log
+	cat reports.log
